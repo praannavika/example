@@ -1,0 +1,30 @@
+jjh1
+{
+	color:green;
+}
+h2
+{
+	color:SkyBlue;
+}
+#calculator 
+{
+    border="4";
+	cellpadding="1";
+	bordercolor="#FFFFFF" ;
+	bgcolor="#73B27B";
+	cellspacing="2" ;
+	width="222";
+}
+#ReportGeneration table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+#ReportGeneration table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#ReportGeneration th, td {
+  padding: 15px;
+} 

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="externalcss.css">
+    <title>assignment6</title>
+	<h1>container</h1>
+	<nav class="navbar navbar-expand-sm bg-light">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#LoginForm">Login form </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#calculator">Calculator Display</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#ReportGeneration">Report Generation</a>
+    </li>
+  </ul>
+</nav>
+<br>
+  </head>
+  <body>
+   <article id="LoginForm">
+<h2> Login Form </h2>
+<form>
+<div>
+<label><b>Email Address</b> 
+<input type="text" placeholder="Enter Email id" name="Email Address" required> </label>
+</div>
+<div>
+<label><b>Password</b>
+<input type="password" placeholder="Enter Password" name="Password" required></label>
+</div>
+</form>
+</article>
+<article id="calculator">
+<h2>Calculator display</h2>
+<form name="calculator">
+<table>
+<tr>
+<td>
+<input type="text" size="30" length="30" value="" name="ans">
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td align="center"><input type="button" value=" 7 " name="seven" onClick="document.calculator.ans.value+='7'"></td>
+<td align="center"><input type="button" value=" 8 " name="eight" onClick="document.calculator.ans.value+='8'"</td>
+<td align="center"><input type="button" value=" 9 " name="nine" onClick="document.calculator.ans.value+='9'"></td>
+<td align="center"><input type="button" value=" / " name="divide" onClick="document.calculator.ans.value+='/'"></td>
+</tr>
+<tr>
+<td align="center"><input type="button" value=" 4 " name="four" onClick="document.calculator.ans.value+='4'"></td>
+<td align="center"><input type="button" value=" 5 " name="five" onClick="document.calculator.ans.value+='5'"></td>
+<td align="center"><input type="button" value=" 6 " name="six" onClick="document.calculator.ans.value+='6'"></td>
+<td align="center"><input type="button" value=" * " name="multiply" onClick="document.calculator.ans.value+='*'"></td>
+</tr>
+<tr>
+<td align="center" ><input type="button" value=" 1 " name="one" onClick="document.calculator.ans.value+='1'"></td>
+<td align="center"><input type="button" value=" 2 " name="two" onClick="document.calculator.ans.value+='2'"></td>
+<td align="center"><input type="button" value=" 3 " name="three" onClick="document.calculator.ans.value+='3'"></td>
+<td align="center"><input type="button" value=" - " name="subtract" onClick="document.calculator.ans.value+='-'"></td>
+</tr>
+<tr>
+<td align="center" ><input type="button" value=" C " name="clear" onClick="document.calculator.ans.value=''"></td>
+<td align="center"><input type="button" value=" 0 " name="zero" onClick="document.calculator.ans.value+='0'"></td>
+<td align="center"><input type="button" value=" = " name="equal"onClick="document.calculator.ans.value=eval(document.calculator.ans.value)"></td>
+<td align="center"><input type="button" value=" + " name="add" onClick="document.calculator.ans.value+='+'"></td>
+</tr>
+</table>
+</form>
+</article>
+<article id="ReportGeneration">
+<h2>Report Generation</h2>
+<table>
+<thead>
+  <tr>
+  <th>Name</th>
+  <th>Website Handled</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td>praannavika</td>
+  <td><a href=""https://www.google.com">praannavika webiste</a></td>
+  </tr>
+   </tbody>
+</table>
+</article>
+</body>
+</html>
+
+
+ 
